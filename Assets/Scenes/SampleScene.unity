@@ -331,7 +331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 167e6477eeb66804ba2410f1158064fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.7299013
+      value: -2.724
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 167e6477eeb66804ba2410f1158064fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -393,7 +393,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 7.52, y: 3.01, z: -1.99}
+  m_Center: {x: 7.52, y: 3.1, z: -1.99}
 --- !u!64 &845972739
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -420,6 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef93f09e973220846992041528a697f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &917376324
 GameObject:
   m_ObjectHideFlags: 0
